@@ -1,0 +1,22 @@
+{
+  "name": "universal-async-component",
+  "version": "1.0.0",
+  "description": "Universal Async Component",
+  "main": "index.js",
+  "repository": "mohsen1/universal-async-component",
+  "author": "Mohsen Azimi <me@azimi.me>",
+  "license": "MIT",
+  "typeings": "./index.d.ts",
+  "peerDependencies": {
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.15",
+    "@types/react": "^15.0.38",
+    "@types/webpack": "^3.0.5",
+    "typescript": "^2.4.2"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  }
+}

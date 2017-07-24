@@ -1,0 +1,5 @@
+node_modules
+*.js
+*.log
+*.d.ts
+!global.d.ts
