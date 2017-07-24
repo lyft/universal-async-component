@@ -85,7 +85,7 @@ const config = {
     ],
 }
 ```
-Note: this is a bit of hack and will go away once Webpack opens up API to hook into module resolution code replacement. [Issue](https://github.com/webpack/webpack/issues/5344)
+Note: this will go away once React can render async components
 
 
 
