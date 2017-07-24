@@ -10,7 +10,7 @@
   "author": "Mohsen Azimi <me@azimi.me>",
   "license": {
     "type": "Apache-2.0",
-    "url": "hgithub.com/lyft/universal-async-component/LICENSE"
+    "url": "https://github.com/lyft/universal-async-component/LICENSE"
   },
   "typeings": "./index.d.ts",
   "peerDependencies": {
