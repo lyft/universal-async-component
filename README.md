@@ -3,7 +3,7 @@
 Async component that works in server and client. It will allows code splitting that works for universal apps.
 
 ## What is this?
-This is solving the [hard problem][1] of mixing code splitting and server side rendering. To avoid "flash" of contents in the initial load server should include dynamic chunks required to render the initial screen.
+This is solving the [hard problem](hard-problem) of mixing code splitting and server side rendering. To avoid "flash" of contents in the initial load server should include dynamic chunks required to render the initial screen.
 
 ## Usage
 
@@ -74,4 +74,4 @@ const config = {
 
 
 
-[1]: [https://github.com/ReactTraining/react-router/blob/d64ed0150b41df02b083f090b6682261c819a91e/packages/react-router-dom/docs/guides/code-splitting.md#code-splitting--server-rendering]
+[hard-problem]: [https://github.com/ReactTraining/react-router/blob/d64ed0150b41df02b083f090b6682261c819a91e/packages/react-router-dom/docs/guides/code-splitting.md#code-splitting--server-rendering]
