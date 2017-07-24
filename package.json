@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "Universal Async Component",
   "main": "index.js",
-  "repository": "mohsen1/universal-async-component",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lyft/universal-async-component.git"
+  },
   "author": "Mohsen Azimi <me@azimi.me>",
-  "license": "MIT",
+  "license": {
+    "type": "Apache-2.0",
+    "url": "hgithub.com/lyft/universal-async-component/LICENSE"
+  },
   "typeings": "./index.d.ts",
   "peerDependencies": {
     "react": "^15.6.1"
