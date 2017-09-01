@@ -1,6 +1,6 @@
 import * as  React from 'react';
 
-export type ModuleNamespace<T> = any; // TODO
+export type ModuleNamespace = any; // TODO
 
 /** Props passed to the loading component */
 export interface LoadingProps {
@@ -11,7 +11,7 @@ export interface LoadingProps {
 
 export interface GetComponentAsyncConfiguration<T> {
     /** A function that returns promise of a module namespace or a module namespace */
-    loader: () => Promise<ModuleNamespace<T>> & { resolvedValue?: ModuleNamespace<T> };
+    loader: () => Promise<ModuleNamespace> & { resolvedValue?: ModuleNamespace };
     /** Props to pass to loaded component */
     props?: T;
     /** Loading component */
